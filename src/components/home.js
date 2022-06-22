@@ -44,8 +44,11 @@ export default function Home(props) {
   return (
     <Layout {...props}>
       <nav className="d-flex flex-column align-items-center">
-        <h1 className="my-3 text-center">My Project</h1>
-        <section>
+        <h1 className="my-3 text-center">Lofidoro</h1>
+        <h2>A productivity app that lets you use the pomodoro method with the convenience
+          of lofi music of your choice
+        </h2>
+        {/* <section>
           {!isLoaded && 'Widgets loading…'}
           {hasErrors && 'Error Loading'}
           {isLoaded &&
@@ -69,7 +72,7 @@ export default function Home(props) {
               <pre style={{width:"300px"}}>{JSON.stringify(data, null, 2)}</pre>
             </div>
           }
-        </section>
+        </section> */}
       </nav>
     </Layout>
   );

@@ -53,7 +53,7 @@ function LayoutNav(props) {
   const nav = (
     <div className="nav-wrapper border-bottom">
       <Navbar light expand="lg">
-        <NavbarBrand href="/">Solo Project</NavbarBrand>
+        <NavbarBrand href="/">Lofidoro</NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav navbar className="ml-auto">

@@ -5406,7 +5406,7 @@ firebase-encode@^0.0.5:
   resolved "https://registry.yarnpkg.com/firebase-encode/-/firebase-encode-0.0.5.tgz#3184d2d53a8d9b41a3ee9f27274554156d750905"
   integrity sha512-RHymsTb1TqOWdOk83BPbs/xVdD/8sE4US7m/1KxYc6larlLTmCbTFf88GU461k98ezU/utC96laqp4x7fzhFhQ==
 
-firebase@^8.3.3:
+firebase@^8.10.1:
   version "8.10.1"
   resolved "https://registry.yarnpkg.com/firebase/-/firebase-8.10.1.tgz#4915b47f2905c56b905a232dbd109c3c04a8fa8f"
   integrity sha512-84z/zqF8Y5IpUYN8nREZ/bxbGtF5WJDOBy4y0hAxRzGpB5+2tw9PQgtTnUzk6MQiVEf/WOniMUL3pCVXKsxALw==
