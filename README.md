@@ -47,13 +47,13 @@ Update your progress by checking off the tasks for each sprint. We will **not** 
 
 - [x] Get app approved (DM Scott for approval)
   - [x] Add project description to bottom of this page
-- [ ] Create mockups (physical paper, low-fi)
+- [x] Create mockups (physical paper, low-fi)
   - [ ] Attach mockups to bottom of this page
-- [ ] Define scope (DM Scott for approval)
-  - [ ] Define milestones for each sprint
-  - [ ] Define final deliverable for v1
+- [x] Define scope (DM Scott for approval)
+  - [x] Define milestones for each sprint
+  - [x] Define final deliverable for v1
 - [ ] App must
-  - [] Be publicly accessible
+  - [ ] Be publicly accessible
   - [x] Have working authentication
   - [ ] Have technical component 5% done
 
@@ -89,6 +89,6 @@ A pomodoro timer that plays lofi (or any music of your choice) from youtube/spot
 
 [*Replace me with mockups*]
 
-| ![Benjamin Bannekat](https://octodex.github.com/images/bannekat.png) | ![Benjamin Bannekat](https://octodex.github.com/images/bannekat.png) |
+| ![](images/main-layout.png) | ![](images/sign-in-page.png) |
 |----------------------------------------------------------------------|----------------------------------------------------------------------|
-| ![Benjamin Bannekat](https://octodex.github.com/images/bannekat.png) | ![Benjamin Bannekat](https://octodex.github.com/images/bannekat.png) |
+| ![](images/stats-layout.png) | ![](images/focus-time-details.png) |
