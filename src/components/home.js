@@ -4,6 +4,9 @@ import { useDispatch, useSelector } from 'react-redux';
 import { Button, Form, FormGroup, Input, Label } from 'reactstrap';
 import { createWidget, fetchAllWidgets, savePhoto } from "redux/widget";
 import Layout from './layout';
+import TaskTracker from "./TaskTracker/TaskTracker";
+import ViewButton from "./ViewButton/ViewButton";
+import YouTubeIcon from '@mui/icons-material/YouTube';
 
 export default function Home(props) {
   const dispatch = useDispatch();
@@ -48,6 +51,10 @@ export default function Home(props) {
         <h2>A productivity app that lets you use the pomodoro method with the convenience
           of lofi music of your choice
         </h2>
+
+        <TaskTracker />
+        <ViewButton icon={<YouTubeIcon style={{ fontSize: 50 }}/>}/>
+
         {/* <section>
           {!isLoaded && 'Widgets loading…'}
           {hasErrors && 'Error Loading'}
