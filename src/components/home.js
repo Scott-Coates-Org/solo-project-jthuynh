@@ -52,8 +52,8 @@ export default function Home(props) {
           of lofi music of your choice
         </h2>
 
-        <TaskTracker />
-        <ViewButton icon={<YouTubeIcon style={{ fontSize: 50 }}/>}/>
+        {/* <TaskTracker /> */}
+        <ViewButton component={<TaskTracker />} icon={<YouTubeIcon />} />
 
         {/* <section>
           {!isLoaded && 'Widgets loading…'}

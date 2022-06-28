@@ -53,11 +53,11 @@ Update your progress by checking off the tasks for each sprint. We will **not** 
   - [x] Define milestones for each sprint
   - [x] Define final deliverable for v1
 - [ ] App must
-  - [ ] Be publicly accessible
+  - [x] Be publicly accessible
   - [x] Have working authentication
   - [ ] Have technical component 5% done
     - [ ] Create components to hold the different features (pomodoro timer, task tracker, daily quotes, youtube player)
-    - [ ] Create button to show and hide the different widgets
+    - [x] Create button to show and hide the different widgets
 
 ### Sprint 2
 

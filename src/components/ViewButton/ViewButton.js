@@ -1,17 +1,31 @@
 import React from 'react';
-import Box from '@mui/material/Box';
-import Button from '@mui/material/Button';
+// import Box from '@mui/material/Box';
+// import Button from '@mui/material/Button';
 import { IconButton } from '@mui/material';
-import YouTubeIcon from '@mui/icons-material/YouTube';
+// import YouTubeIcon from '@mui/icons-material/YouTube';
 
+import { useState } from 'react';
 
-const ViewButton = ({ icon }) => {
+const ViewButton = ({ component, icon }) => {
+  const [isVisible, setIsVisible] = useState(true);
+
+  const handleClick = event => {
+    // 👇️ toggle visibility
+    setIsVisible(current => !current);
+  };
+
   return (
-    <IconButton>
-      {icon}
-      <div>The icon is above</div>
-    </IconButton>
-  )
+    <div>
+      <div style={{ visibility: isVisible ? 'visible' : 'hidden' }}>
+        {component}
+      </div>
+
+      <IconButton onClick={handleClick}>
+        {icon}
+      </IconButton>
+    </div>
+  );
+
 }
 
 export default ViewButton
