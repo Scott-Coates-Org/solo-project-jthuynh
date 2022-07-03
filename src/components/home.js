@@ -7,6 +7,9 @@ import Layout from './layout';
 import TaskTracker from "./TaskTracker/TaskTracker";
 import ViewButton from "./ViewButton/ViewButton";
 import YouTubeIcon from '@mui/icons-material/YouTube';
+import Pomodoro from "./Pomodoro/Pomodoro";
+import Timer from "./Pomodoro/Timer";
+import Wrapper from "./Wrapper/Wrapper";
 
 export default function Home(props) {
   const dispatch = useDispatch();
@@ -53,7 +56,12 @@ export default function Home(props) {
         </h2>
 
         {/* <TaskTracker /> */}
+        {/* <Pomodoro /> */}
+        {/* <Wrapper content={<Timer/>}/> */}
+        {/* <Wrapper content={<Timer />} /> */}
+        {<Pomodoro />}
         <ViewButton component={<TaskTracker />} icon={<YouTubeIcon />} />
+        
 
         {/* <section>
           {!isLoaded && 'Widgets loading…'}

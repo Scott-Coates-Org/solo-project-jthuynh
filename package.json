@@ -29,8 +29,13 @@
     "react-redux": "^7.2.3",
     "react-router-dom": "^5.2.0",
     "react-scripts": "^4.0.3",
+    "react-slider": "^2.0.1",
     "reactstrap": "^8.9.0",
     "redux": "^4.0.5"
+  },
+  "resolutions": {
+    "//": "See https://stackoverflow.com/questions/70368760/react-uncaught-referenceerror-process-is-not-defined",
+    "react-error-overlay": "6.0.9"
   },
   "scripts": {
     "dev": "react-scripts start",

@@ -23,7 +23,8 @@ const Wrapper = ({ content, title }) => {
 
   return (
     <div>
-      <Card sx={{ bgcolor: 'background.paper',
+      <Card sx={{ background: '#44318D',
+          color: '#fff',
           boxShadow: 1,
           borderRadius: 2,
           p: 2,

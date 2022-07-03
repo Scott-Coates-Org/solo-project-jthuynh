@@ -52,25 +52,24 @@ Update your progress by checking off the tasks for each sprint. We will **not** 
 - [x] Define scope (DM Scott for approval)
   - [x] Define milestones for each sprint
   - [x] Define final deliverable for v1
-- [ ] App must
+- [x] App must
   - [x] Be publicly accessible
   - [x] Have working authentication
-  - [ ] Have technical component 5% done
-    - [ ] Create components to hold the different features (pomodoro timer, task tracker, daily quotes, youtube player)
+  - [x] Have technical component 5% done
+    - [x] Create components to hold the different features (pomodoro timer, task tracker, daily quotes, youtube player)
     - [x] Create button to show and hide the different widgets
 
 ### Sprint 2
 
 - [ ] Technical component 25%
 - [ ] Complete pomodoro timer, task tracker, daily quotes
-- [ ] Use youtube api to create the youtube player
-- [ ] Create the sign up/login page
 
 ### Sprint 3
 
 - [ ] Technical component 50%
 - [ ] Re-evaluate milestones and features
-- [ ] Make windows draggable using react-draggable package
+- [ ] Use youtube api to create the youtube player
+- [ ] Create the sign up/login page
 - [ ] Creating the stats page for time focused on day/week period 
 
 ### Sprint 4
