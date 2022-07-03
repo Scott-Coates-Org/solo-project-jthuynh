@@ -58,9 +58,9 @@ export default function Home(props) {
         {/* <TaskTracker /> */}
         {/* <Pomodoro /> */}
         {/* <Wrapper content={<Timer/>}/> */}
-        {/* <Wrapper content={<Timer />} /> */}
+        <Wrapper title="Task Tracker" content={<TaskTracker />} />
         {<Pomodoro />}
-        <ViewButton component={<TaskTracker />} icon={<YouTubeIcon />} />
+        {/* <ViewButton component={<TaskTracker />} icon={<YouTubeIcon />} /> */}
         
 
         {/* <section>
