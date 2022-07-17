@@ -63,7 +63,7 @@ export default function Home(props) {
         {/* <ViewButton component={<TaskTracker />} icon={<YouTubeIcon />} /> */}
         
 
-        {/* <section>
+        <section>
           {!isLoaded && 'Widgets loading…'}
           {hasErrors && 'Error Loading'}
           {isLoaded &&
@@ -87,7 +87,7 @@ export default function Home(props) {
               <pre style={{width:"300px"}}>{JSON.stringify(data, null, 2)}</pre>
             </div>
           }
-        </section> */}
+        </section>
       </nav>
     </Layout>
   );
